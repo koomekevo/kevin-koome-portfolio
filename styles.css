@@ -43,7 +43,7 @@
 
   /* Inside Auto Layout */
   order: 2;
-  margin: 0px 8px;
+  margin: 8px;
 }
 
 /* Contact */
@@ -68,7 +68,7 @@
   /* Inside Auto Layout */
   order: 0;
   flex-grow: 0;
-  margin: 0px 10px;
+  margin: 10px;
 }
 
 /* Frame 3 */
@@ -106,11 +106,11 @@
   display: flex;
   align-items: center;
   text-align: center;
-  color: #ffffff;
+  color: #fff;
 
   /* Inside Auto Layout */
   flex: none;
-  margin: 0px 10px;
+  margin: 10px;
 }
 
 /* Frame 4 */
@@ -127,7 +127,7 @@
 
   /* Inside Auto Layout */
   flex: none;
-  margin: 0px 8px;
+  margin: 8px;
 }
 
 /* Portfolio */
@@ -142,16 +142,16 @@
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-  
+
   /* identical to box height, or 133% */
   display: flex;
   align-items: center;
   text-align: center;
-  color: #ffffff;
+  color: #fff;
 
   /* Inside Auto Layout */
   flex: none;
-  margin: 0px 10px;
+  margin: 10px;
 }
 
 /* Name */
@@ -176,7 +176,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 114px 0px;
+  padding: 114px;
   position: absolute;
   width: 1156px;
   height: 1121px;
@@ -191,23 +191,23 @@
   height: 20px;
   left: 12px;
   top: 10px;
-  font-family: Roboto;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 20px;
-  
+
   /* identical to box height, or 111% */
   display: flex;
   align-items: center;
   text-align: center;
-  color: #ffffff;
+  color: #fff;
 
   /* Inside Auto Layout */
   flex: none;
-  margin: 0px 10px;
+  margin: 10px;
 }
-  
+
 /* Support Text */
 .Support-Text {
   position: static;
@@ -222,12 +222,12 @@
   text-align: center;
 
   /* Neutrals/N40 */
-  color: #DFE1E6;
+  color: #dfe1e6;
 
-  /* Inside Auto Layout */ 
+  /* Inside Auto Layout */
   flex: none;
   order: 1;
-  margin: 24px 0px;
+  margin: 24px;
 }
 
 /* Supporting Text */
@@ -240,13 +240,13 @@
   position: static;
   width: 448px;
   height: 485px;
-  left: calc(50% - 448px/2);
+  left: calc(50% - 448px / 2);
   top: 394px;
 
   /* Inside Auto Layout */
   flex: none;
   order: 1;
-  margin: 88px 0px;
+  margin: 88px;
 }
 
 /* Primary Text */
@@ -254,18 +254,17 @@
   position: static;
   width: 1156px;
   height: 96px;
-  font-family: Roboto;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 90px;
   line-height: 105px;
   text-align: center;
-  color: #9391FF;
-  
+  color: #9391ff;
+
   /* Inside Auto Layout */
   flex: none;
-
-  margin: 24px 0px;
+  margin: 24px;
 }
 
 /* I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me. */
@@ -274,7 +273,7 @@
   width: 447px;
   height: 155px;
   left: 0.5px;
-  font-family: Roboto;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -284,9 +283,9 @@
   text-align: center;
 
   /* Neutrals/N60 */
-  color: #B3BAC5;
+  color: #b3bac5;
 
   /* Inside Auto Layout */
   flex: none;
-  margin: 24px 0px;
+  margin: 24px;
 }
