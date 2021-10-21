@@ -1,5 +1,5 @@
 /* Template 5-main */
-.container { 
+.container {
   display: flex;
   position: relative;
   width: 1440px;
@@ -15,6 +15,7 @@
 }
 
 /* Item Navigation */
+
 /* Auto Layout */
 .Item-Navigation {
   display: flex;
@@ -28,6 +29,7 @@
 }
 
 /* Frame 5 */
+
 /* Auto Layout */
 .Frame-5 {
   display: flex;
@@ -40,7 +42,6 @@
   left: 164px;
 
   /* Inside Auto Layout */
-  flex: none;
   order: 2;
   margin: 0px 8px;
 }
@@ -52,7 +53,50 @@
   height: 20px;
   left: 12px;
   top: 10px;
-  font-family: Roboto;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+
+  /* identical to box height, or 133% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+
+  /* Inside Auto Layout */
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10px;
+}
+
+/* Frame 3 */
+
+/* Auto Layout */
+.Frame-3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 12px;
+  position: static;
+  width: 65px;
+  height: 40px;
+  left: 91px;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  margin: 0px 8px;
+}
+
+.About {
+  position: static;
+  width: 41px;
+  height: 20px;
+  left: 12px;
+  top: 10px;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -66,95 +110,55 @@
 
   /* Inside Auto Layout */
   flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 0px 10px;
-}
-
-/* Frame 3 */
-/* Auto Layout */
-.Frame-3 { display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 10px 12px;
-  position: static;
-  width: 65px;
-  height: 40px;
-  left: 91px;
-  top: 0px;
-  /* Inside Auto Layout */
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-  margin: 0px 8px;
-}
-
-.About { position: static;
-  width: 41px;
-  height: 20px;
-  left: 12px;
-  top: 10px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
-  /* identical to box height, or 133% */
-  display: flex;
-  align-items: center;
-  text-align: center;
-  color: #FFFFFF;
-  /* Inside Auto Layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
   margin: 0px 10px;
 }
 
 /* Frame 4 */
+
 /* Auto Layout */
-.Frame-4 { display: flex;
+.Frame-4 {
+  display: flex;
   flex-direction: row;
   align-items: center;
   padding: 10px 12px;
   position: static;
   width: 83px;
   height: 40px;
-  left: 0px;
-  top: 0px;
+
   /* Inside Auto Layout */
   flex: none;
-  order: 0;
-  flex-grow: 0;
   margin: 0px 8px;
 }
 
-/* Portoflio */
-.Portfolio { position: static;
+/* Portfolio */
+.Portfolio {
+  position: static;
   width: 59px;
   height: 20px;
   left: 12px;
   top: 10px;
-  font-family: Roboto;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
+  
   /* identical to box height, or 133% */
   display: flex;
   align-items: center;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
+
   /* Inside Auto Layout */
   flex: none;
-  order: 0;
-  flex-grow: 0;
   margin: 0px 10px;
 }
 
 /* Name */
+
 /* Auto Layout */
-.Name { display: flex;
+.Name {
+  display: flex;
   flex-direction: row;
   align-items: center;
   padding: 10px 12px;
@@ -166,8 +170,10 @@
 }
 
 /* Header */
+
 /* Auto Layout */
-.header { display: flex;
+.header {
+  display: flex;
   flex-direction: column;
   align-items: center;
   padding: 114px 0px;
@@ -179,7 +185,8 @@
 }
 
 /* Kevin Koome */
-.Koome { position: static;
+.Koome {
+  position: static;
   width: 77px;
   height: 20px;
   left: 12px;
@@ -189,63 +196,64 @@
   font-weight: 500;
   font-size: 18px;
   line-height: 20px;
+  
   /* identical to box height, or 111% */
   display: flex;
   align-items: center;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
+
   /* Inside Auto Layout */
   flex: none;
-  order: 0;
-  flex-grow: 0;
   margin: 0px 10px;
 }
   
 /* Support Text */
-.Support-Text { position: static;
+.Support-Text {
+  position: static;
   width: 1156px;
   height: 72px;
-  left: 0px;
   top: 120px;
-  font-family: Roboto;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 40px;
   line-height: 47px;
   text-align: center;
+
   /* Neutrals/N40 */
   color: #DFE1E6;
+
   /* Inside Auto Layout */ 
   flex: none;
   order: 1;
-  flex-grow: 0;
   margin: 24px 0px;
 }
 
 /* Supporting Text */
+
 /* Auto Layout */
-.Supporting-Text { display: flex;
+.Supporting-Text {
+  display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px;
   position: static;
   width: 448px;
   height: 485px;
   left: calc(50% - 448px/2);
   top: 394px;
+
   /* Inside Auto Layout */
   flex: none;
   order: 1;
-  flex-grow: 0;
   margin: 88px 0px;
 }
 
 /* Primary Text */
-.Primary-Text { position: static;
+.Primary-Text {
+  position: static;
   width: 1156px;
   height: 96px;
-  left: 0px;
-  top: 0px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -253,31 +261,32 @@
   line-height: 105px;
   text-align: center;
   color: #9391FF;
+  
   /* Inside Auto Layout */
   flex: none;
-  order: 0;
-  flex-grow: 0;
+
   margin: 24px 0px;
 }
 
 /* I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me. */
-.Resume { position: static;
+.Resume {
+  position: static;
   width: 447px;
   height: 155px;
   left: 0.5px;
-  top: 0px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 32px;
+
   /* or 160% */
   text-align: center;
+
   /* Neutrals/N60 */
   color: #B3BAC5;
+
   /* Inside Auto Layout */
   flex: none;
-  order: 0;
-  flex-grow: 0;
   margin: 24px 0px;
 }
