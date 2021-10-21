@@ -2,7 +2,7 @@
 
 >This project is meant to set up a skeleton html and css portfolio page containing only the toolbar and headline section and eventually produce a mobile version of the skeleton.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./app_screenshot.PNG)
 
 ## Built With
 
