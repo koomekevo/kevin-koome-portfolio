@@ -9,6 +9,9 @@
 - HTML
 - CSS
 
+## Live Demo
+
+https://koomekevo.github.io/kevin-koome-portfolio/
 
 ## Getting Started
 
