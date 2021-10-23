@@ -1,0 +1,22 @@
+{
+  "name": "kevin-koome-portfolio",
+  "version": "1.0.0",
+  "description": "Kevin Koome Portfolio",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koomekevo/kevin-koome-portfolio.git"
+  },
+  "keywords": [
+    "Portfolio"
+  ],
+  "author": "Kevin Koome",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/koomekevo/kevin-koome-portfolio/issues"
+  },
+  "homepage": "https://github.com/koomekevo/kevin-koome-portfolio#readme"
+}
