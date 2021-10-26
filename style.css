@@ -319,6 +319,31 @@ main h2 {
   font-family: "Roboto", sans-serif;
 }
 
+form {
+  flex-direction: column;
+  margin: 1rem;
+}
+
+fieldset {
+  border: none;
+  width: 10rem;
+  margin: 0 auto;
+}
+
+fieldset input {
+  height: 40px;
+  width: 33rem;
+  margin: 0 10px 10px 10px;
+  padding: 10px 0 10px 10px;
+}
+
+fieldset textarea {
+  width: 33rem;
+  height: 20rem;
+  margin: 0 10px 30px 10px;
+  padding: 10px 0 10px 10px;
+}
+
 .btn-center {
   width: 9rem;
   height: 4.5rem;
