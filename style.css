@@ -557,6 +557,7 @@ form input.success {
   }
 }
 
+/* Show background-bottom-mobile.png on mobile */
 @media screen and (max-width: 1000px) {
   .menu-dropdown {
     background-image: url(./BG/background-bottom-mobile.png);
