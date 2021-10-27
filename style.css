@@ -548,7 +548,7 @@ form input.success {
 
 /* CSS Media Queries */
 
-/* If accessed through mobile screen, don't display elements */
+/* If accessed through mobile screen, don't display these elements */
 @media screen and (max-width: 1000px) {
   .nav-ul,
   .arrow-1,
@@ -569,6 +569,7 @@ form input.success {
   }
 }
 
+/* If accessed on mobile, display these elements */
 @media screen and (min-width: 1000px) {
   .hamburger-button {
     display: none;
