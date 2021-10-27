@@ -570,7 +570,7 @@ form input.success {
   }
 }
 
-/* If accessed on mobile, display these elements */
+/* Display .hamburger-button to .divBtnClass on mobile */
 @media screen and (min-width: 1000px) {
   .hamburger-button {
     display: none;
