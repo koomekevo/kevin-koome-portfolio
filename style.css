@@ -548,7 +548,7 @@ form input.success {
 
 /* CSS Media Queries */
 
-/* If accessed through mobile screen, don't display these elements */
+/* Hide .nav-ul .arrow-1 .lets-chat on mobile */
 @media screen and (max-width: 1000px) {
   .nav-ul,
   .arrow-1,
