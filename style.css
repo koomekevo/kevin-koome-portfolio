@@ -249,6 +249,7 @@ main h2 {
   text-align: center;
 }
 
+/* My recent works */
 .work-section-container {
   display: grid;
 }
@@ -545,6 +546,9 @@ form input.success {
   margin: 2rem auto;
 }
 
+/* CSS Media Queries */
+
+/* If accessed through mobile screen, don't display elements */
 @media screen and (max-width: 1000px) {
   .nav-ul,
   .arrow-1,
@@ -565,7 +569,6 @@ form input.success {
   }
 }
 
-/* Media Querie */
 @media screen and (min-width: 1000px) {
   .hamburger-button {
     display: none;
