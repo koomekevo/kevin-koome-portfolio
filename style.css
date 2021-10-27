@@ -249,6 +249,7 @@ main h2 {
   text-align: center;
 }
 
+/* My recent works */
 .work-section-container {
   display: grid;
 }
@@ -545,6 +546,9 @@ form input.success {
   margin: 2rem auto;
 }
 
+/* CSS Media Queries */
+
+/* Hide .nav-ul .arrow-1 .lets-chat on mobile */
 @media screen and (max-width: 1000px) {
   .nav-ul,
   .arrow-1,
@@ -553,6 +557,7 @@ form input.success {
   }
 }
 
+/* Show background-bottom-mobile.png on mobile */
 @media screen and (max-width: 1000px) {
   .menu-dropdown {
     background-image: url(./BG/background-bottom-mobile.png);
@@ -565,7 +570,7 @@ form input.success {
   }
 }
 
-/* Media Querie */
+/* Display .hamburger-button to .divBtnClass on mobile */
 @media screen and (min-width: 1000px) {
   .hamburger-button {
     display: none;
