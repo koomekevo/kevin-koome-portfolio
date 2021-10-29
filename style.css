@@ -320,6 +320,10 @@ main h2 {
   font-family: "Roboto", sans-serif;
 }
 
+.footer-p:hover {
+  transform: translate(10px);
+}
+
 form {
   flex-direction: column;
   margin: 1rem;
