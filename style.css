@@ -28,6 +28,14 @@ body {
   margin-top: 2rem;
 }
 
+h1.rotate {
+  transition: all 1s ease-in-out;
+}
+
+h1.rotate:hover {
+  transform: rotateY(180deg);
+}
+
 .hamburger-button {
   background-color: transparent;
   border: none;
@@ -278,7 +286,7 @@ main h2 {
   font-weight: 200;
   line-height: 2.7rem;
   padding: 1.5rem;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   width: 327px;
   height: 204px;
 }
@@ -286,7 +294,7 @@ main h2 {
 .vertical-lines {
   align-items: center;
   justify-content: space-around;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   width: 312px;
   height: 40px;
   margin: 30px;
