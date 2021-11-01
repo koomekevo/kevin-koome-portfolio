@@ -11,6 +11,7 @@
 
 ## Live Demo
 
+Deploy to Github pages
 https://koomekevo.github.io/kevin-koome-portfolio/
 
 ## Getting Started
