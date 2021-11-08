@@ -5,6 +5,7 @@ function openMenu() {
   menu.style.visibility = 'visible';
 }
 
+// Confirmed close-menu working well
 function closeMenu() {
   menu.style.visibility = 'hidden';
 }
