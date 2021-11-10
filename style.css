@@ -278,7 +278,7 @@ main h2 {
   font-weight: 200;
   line-height: 2.7rem;
   padding: 1.5rem;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   width: 327px;
   height: 204px;
 }
@@ -286,7 +286,7 @@ main h2 {
 .vertical-lines {
   align-items: center;
   justify-content: space-around;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   width: 312px;
   height: 40px;
   margin: 30px;
@@ -457,6 +457,82 @@ fieldset textarea {
   margin: 0 auto;
   width: auto;
   height: 181px;
+}
+
+.pClass {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  margin: 24px;
+  color: #ffff;
+  padding: 5px;
+}
+
+.vertical-lines-modal {
+  display: flex;
+  justify-content: space-around;
+  color: #ffff;
+  font-family: "Poppins", sans-serif;
+  margin: 0 41px;
+}
+
+.vertical-line-modal {
+  border-left: 1.5px solid #81818c;
+  height: 30px;
+}
+
+.techs {
+  display: flex;
+  align-items: center;
+}
+
+.divBtns {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.newBtn {
+  width: 108px;
+  height: 48px;
+  background-color: #7d73fc;
+  border: none;
+  color: #ffff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.newBtn2 {
+  margin-top: 24px;
+  width: 124px;
+  height: 48px;
+  background-color: #7d73fc;
+  border: none;
+  color: #ffff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.divHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 278px;
+  height: 58px;
+  margin: 0 auto;
+}
+
+.divBtnClass {
+  margin-top: 19px;
+  width: 24px;
+  height: 24px;
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  color: #ffff;
 }
 
 /* Form cSs */
