@@ -8,22 +8,6 @@ const requiredFields = [
   { input: email, message: 'Email is required' },
 ];
 
-function error(input, message) {
-  input.className = 'error';
-  // show the error message
-  const error = document.querySelector('.labelformat');
-  error.innerText = message;
-  return false;
-}
-
-function success(input) {
-  input.className = 'success';
-  // hide the error message
-  const error = input.previousElementSibling;
-  error.innerText = '';
-  return true;
-}
-
 function validateEmail(input) {
   const re = /^[a-z0-9.!#$%&'*+=?^_`{|}~-]+@[a-z0-9-]+(?:\.[a-z90-]+)*$/;
 
