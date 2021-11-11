@@ -8,7 +8,6 @@ const requiredFields = [
   { input: email, message: 'Email is required' },
 ];
 
-// Ranjeet's code
 function error(input, message) {
   input.className = 'error';
   // show the error message
@@ -17,7 +16,6 @@ function error(input, message) {
   return false;
 }
 
-// Natalie's code
 function success(input) {
   input.className = 'success';
   // hide the error message
