@@ -17,6 +17,15 @@ function error(input, message) {
   return false;
 }
 
+// Natalie's code
+function success(input) {
+  input.className = 'success';
+  // hide the error message
+  const error = input.previousElementSibling;
+  error.innerText = '';
+  return true;
+}
+
 function validateEmail(input) {
   const re = /^[a-z0-9.!#$%&'*+=?^_`{|}~-]+@[a-z0-9-]+(?:\.[a-z90-]+)*$/;
 
